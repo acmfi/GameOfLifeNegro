@@ -13,5 +13,5 @@ def dibFila(fila):                       #dibujar una fila basada en una lista d
 def dibMatriz(mat):                      #dibujar una matriz basada en listas de booleanos
     res=[]
     for b in mat:
-        res.append(print(dibFila(b)))    #añade los valores booleanos segun los valores que tengan las filas introducidas   
+        res.append(dibFila(b))           #añade los valores booleanos segun los valores que tengan las filas introducidas   
     return res                           #devuelve una matriz con los valores del principio
